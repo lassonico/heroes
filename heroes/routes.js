@@ -1,7 +1,7 @@
-import express from "express"
-import { heroModel } from "./model.js"
+const express = require("express");
+const { heroModel } = require("./model.js"); 
 
-export const heroesRouter = express.Router()
+const heroesRouter = express.Router()
 
 heroesRouter.post("/", async (req, res) =>{
     const heroeCreado = await heroModel.create(req.body)

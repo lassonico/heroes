@@ -1,7 +1,7 @@
-import express from "express"
-import mongoose from "mongoose"
-import { heroesRouter } from "./heroes/routes.js"
-import dotenv from "dotenv";
+const express = require("express");
+const mongoose = require("mongoose");
+const { heroesRouter } = require("./heroes/routes.js");
+const dotenv = require("dotenv");
 dotenv.config();
 
 const app = express();

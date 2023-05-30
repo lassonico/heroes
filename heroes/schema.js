@@ -1,6 +1,6 @@
-import mongoose from "mongoose";
+const mongoose = require("mongoose");
 
-export const heroesSchema = mongoose.Schema(
+const heroesSchema = mongoose.Schema(
 {
     name: {
         type : String,

@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "api de heroes para proyecto",
   "main": "index.js",
-  "type": "module",
+  "type": "commonjs",
   "scripts": {
     "start": "node ./index.js",
     "server": "nodemon index.js"
